@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/popup_element"
+    android:background="@color/white">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Name" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:hint="Enter Email"
+        android:layout_width="match_parent"
+        android:layout_below="@id/editTextName"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/editTextTel"
+        android:hint="Enter Telephone"
+        android:layout_width="match_parent"
+        android:layout_below="@id/editTextEmail"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/save_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@id/editTextTel"
+        android:text="Save" />
+</RelativeLayout>
